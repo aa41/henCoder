@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.xiaoma.hencoder.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@android:color/holo_green_light"
+        android:gravity="center"
+        android:id="@+id/tv"
+        />
+    <com.xiaoma.hencoder.ruler.RulerView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+        app:ruler_border_width="3dp"
+        app:ruler_normal_width="1dp"
+        app:ruler_border_height="60dp"
+        app:ruler_normal_height="30dp"
+        app:ruler_scale_gap="30dp"
+        app:ruler_backgroundColor="#ee00ee"
+        app:ruler_default_show="160"
+        app:ruler_color="#ffffff"
+        app:ruler_triangle_color="#ffffff"
+        android:id="@+id/ruler"
+
+        />
+
+
+
+</LinearLayout>

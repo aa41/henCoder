@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="RulerView">
+        <attr name="ruler_color" format="color|reference"/>
+        <attr name="ruler_backgroundColor" format="color|reference"/>
+        <attr name="ruler_triangle_color" format="color|reference"/>
+        <attr name="ruler_border_width" format="dimension|reference"/>
+        <attr name="ruler_normal_width" format="dimension|reference"/>
+        <attr name="ruler_border_height" format="dimension|reference"/>
+        <attr name="ruler_normal_height" format="dimension|reference"/>
+        <attr name="ruler_textColor" format="color|reference"/>
+        <attr name="ruler_start" format="float|fraction"/>
+        <attr name="ruler_end" format="float|fraction"/>
+        <attr name="ruler_scale_gap" format="dimension|reference"/>
+        <attr name="ruler_default_show" format="float|reference"/>
+    </declare-styleable>
+</resources>
